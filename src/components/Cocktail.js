@@ -8,8 +8,8 @@ const Cocktail = ({id, name, image, glass}) => {
             <img src={image} alt={name}/>
         </div>
         <div className="cocktail-footer">
-            <h4>{name}</h4>
-            <h3>{glass}</h3>
+            <h3>{name}</h3>
+            <h4>{glass}</h4>
             <Link to={`/cocktail/${id}`} className="btn btn primary btn-details">Details</Link>
         </div>
     </article>

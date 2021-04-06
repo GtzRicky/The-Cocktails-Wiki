@@ -143,11 +143,6 @@ Navbar
   box-shadow: var(--lightShadow);
 }
 
-.nav-title {
-  color: var(--primaryColor);
-  text-align: center;
-  align-items: center;
-}
 .nav-center {
   display: flex;
   justify-content: space-between;

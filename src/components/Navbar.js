@@ -8,7 +8,6 @@ const Navbar = () => {
                 <Link to="/">
                     <img src="https://image.flaticon.com/icons/png/512/38/38706.png" alt="cocktail db logo" className="logo" />
                 </Link>
-                <h1 className="nav-title">The Cocktail DB</h1>
                 <ul className="nav-links">
                     <li>
                         <Link to="/">
